@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/hot/hot",
+    "pages/car/car"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ed4040",
+    "navigationBarTitleText": "今日头条",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

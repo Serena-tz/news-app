@@ -1,0 +1,56 @@
+/* pages/hot/hot.wxss */
+.title{
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+}
+.inner{
+  position: absolute;
+  top: 0;
+  left: -200px;
+  width: 520px;
+}
+.title .item{
+  display: inline-block;
+  width: 65px;
+  text-align: center;
+}
+.title .on{
+  color: #ff0101;
+}
+.content{
+  padding: 0 8px;
+}
+.content .item{
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.time{
+  margin-top: 15px;
+  font-size: 14px;
+  color: #9d9a9d;
+  font-size: 12px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+.info .text{
+  display: inline-block;
+  flex: 1;
+  font-size: 14px;
+}
+.img{
+  width: 115px;
+  height: 75px;
+}
+.imgs{
+  width: 97px;
+  height: 78px;
+}
+.time .who{
+  margin-right: 10px;
+}

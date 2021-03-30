@@ -1,0 +1,38 @@
+<!--pages/hot/hot.wxml-->
+<view class="wrap">
+  <!-- 标题 -->
+  <view class="title">
+    <view class="inner">
+      <navigator url="../hot/hot" class="item on">热点</navigator>
+      <navigator class="item">推荐</navigator>
+      <navigator class="item">资讯</navigator>
+      <navigator class="item">娱乐</navigator>
+      <navigator class="item">综艺</navigator>
+      <navigator class="item">历史</navigator>
+      <navigator url="../car/car" class="item">汽车</navigator>
+      <navigator class="item">科技</navigator>
+    </view>
+  </view>
+  <!-- 列表内容 -->
+  <view class="content">
+    <view class="item">
+      <view class="info">
+        <text class="text">冻哭！今冬首个棉裤预警发布全国八成地区需棉裤护体</text>
+        <image class="img" src="../../img/1.jpg" ></image>
+      </view>
+      <view class="time">
+        <text class="who">华瑞IT学院</text>
+        <text>2019-12-03 11:12:57</text>
+      </view>
+    </view>
+    <view class="item">
+      <view class="info">
+        <text class="text">冻哭！今冬首个棉裤预警发布全国八成地区需棉裤护体</text>
+      </view>
+      <view class="time">
+        <text class="who">华瑞IT学院</text>
+        <text>2019-12-03 11:12:57</text>
+      </view>
+    </view>
+  </view>
+</view>
